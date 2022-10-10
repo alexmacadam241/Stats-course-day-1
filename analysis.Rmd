@@ -34,3 +34,20 @@ git merge <name>
 git merge Experimental
 ```
 
+```{r}
+library(usethis)
+library(gitcreds)
+```
+```{r}
+usethis::create_github_token()
+```
+
+```{r}
+gitcreds::gitcreds_set()
+```
+
+```{r}
+sd(x)
+
+```
+
