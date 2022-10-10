@@ -24,7 +24,42 @@ plot(x,y)
 summary(x)
 ```
 
+<<<<<<< HEAD
 ```{r}
 median(x)
+=======
+```{bash}
+git tag -a 'V.1' -m 'Version 1'
+#V.1 is the tag and Version 1 is the message
+```
+
+```{bash}
+#change back to 
+#git checkout ##
+git checkout 4e146
+#changes HEAD to the previous version. Although
+# go back to original using either master or th4e SHA code
+git checkout 'master'
+```
+
+```{bash}
+#revert: probably the best option for changing versions
+#have to name the version you want to reverse
+git revert HEAD --no-edit
+#go back a few commits, revert back a few commits, eg:
+git revert HEAD
+git revert HEAD~1
+git revert HEAD~2
+#etc
+```
+
+```{bash}
+#branching
+
+```
+
+```{r}
+mean(x)
+>>>>>>> Experimental
 ```
 
