@@ -24,3 +24,7 @@ plot(x,y)
 summary(x)
 ```
 
+```{r}
+median(x)
+```
+
