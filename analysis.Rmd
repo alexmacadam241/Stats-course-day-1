@@ -1,0 +1,24 @@
+---
+title: "Stats course day 1"
+output: pdf_document
+date: '2022-10-10'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+How to make your project into a git repository
+type:
+```{bash}
+git init
+```
+into terminal
+
+###############
+random code
+```{r}
+x=seq(1,10,len=1)
+y=40*2 + rnorm(10,0,5)
+plot(x,y)
+```
